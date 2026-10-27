@@ -1,0 +1,60 @@
+{
+ "results": [
+  {
+   "name": "Sliders: create with image + category link → public /home → toggle → reorder → delete",
+   "ok": true,
+   "ms": 160227,
+   "detail": "#11 home/toggle/reorder/delete"
+  },
+  {
+   "name": "Feature sections: create (category filter, style) → /home → edit → toggle → delete",
+   "ok": true,
+   "ms": 31942,
+   "detail": "#13"
+  },
+  {
+   "name": "Home screen: popular category add/remove + section visibility → /home",
+   "ok": true,
+   "ms": 20751,
+   "detail": "cat #15"
+  },
+  {
+   "name": "Banner ads: 4-step wizard (dual, 2 images, external link) → list → public → edit → delete",
+   "ok": true,
+   "ms": 28829,
+   "detail": "#11 dual"
+  },
+  {
+   "name": "Blogs: create (cover, tags, rich text, SEO) → public /blogs → edit (excerpt regen, clear tags) → delete",
+   "ok": true,
+   "ms": 27544,
+   "detail": "#12"
+  }
+ ],
+ "created": [
+  {
+   "module": "sliders",
+   "what": "slider \"QA-ADMIN slider ep3qo\"",
+   "id": 11,
+   "cleaned": true
+  },
+  {
+   "module": "featured_sections",
+   "what": "section \"QA-ADMIN section ep3qo\"",
+   "id": 13,
+   "cleaned": true
+  },
+  {
+   "module": "banner_ads",
+   "what": "banner (placement qa-admin-ep3qo)",
+   "id": 11,
+   "cleaned": true
+  },
+  {
+   "module": "blogs",
+   "what": "blog \"QA-ADMIN blog ep3qo\"",
+   "id": 12,
+   "cleaned": true
+  }
+ ]
+}

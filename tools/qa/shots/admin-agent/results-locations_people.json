@@ -1,0 +1,78 @@
+{
+ "results": [
+  {
+   "name": "Countries: create → states → cities (map) → areas → public cascade → delete chain",
+   "ok": true,
+   "ms": 154803,
+   "detail": "country #13 → state #16 → city #20 → area #9"
+  },
+  {
+   "name": "Countries: import from restcountries",
+   "ok": true,
+   "ms": 9183,
+   "detail": "TV #14 (deleted)"
+  },
+  {
+   "name": "Customers: suspend/activate (Auth disabled), auto-approve, assign + remove package",
+   "ok": false,
+   "ms": 50226,
+   "detail": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div.fixed.right-4.top-4 > div').filter({ hasText: /need approval/ }).first() to be visible\u001b[22m\n"
+  },
+  {
+   "name": "Roles + Staff: create role (content) → staff → fresh login: sidebar + API scoping → widen role → suspend → remove",
+   "ok": false,
+   "ms": 48542,
+   "detail": "content pages hit API errors: 403 /admin/settings?group=home"
+  }
+ ],
+ "created": [
+  {
+   "module": "locations",
+   "what": "country \"QA-ADMIN land f0bvp\"",
+   "id": 13,
+   "cleaned": true
+  },
+  {
+   "module": "locations",
+   "what": "state \"QA-ADMIN state f0bvp\"",
+   "id": 16,
+   "cleaned": true
+  },
+  {
+   "module": "locations",
+   "what": "city \"QA-ADMIN city f0bvp\"",
+   "id": 20,
+   "cleaned": true
+  },
+  {
+   "module": "locations",
+   "what": "area \"QA-ADMIN area f0bvp\"",
+   "id": 9,
+   "cleaned": true
+  },
+  {
+   "module": "locations",
+   "what": "country Tuvalu (import)",
+   "id": 14,
+   "cleaned": true
+  },
+  {
+   "module": "users",
+   "what": "QA user qa-admin-cust-f0bvp@classiadshub-qa.dev",
+   "id": 28,
+   "cleaned": false
+  },
+  {
+   "module": "roles",
+   "what": "role qa-admin-content-f0bvp",
+   "id": 12,
+   "cleaned": false
+  },
+  {
+   "module": "staff",
+   "what": "staff qa-admin-staff-f0bvp@classiadshub-qa.dev",
+   "id": 29,
+   "cleaned": false
+  }
+ ]
+}

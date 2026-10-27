@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* ClassiAds_Hub brand — same tokens as the web app and Flutter theme. */
+:root {
+  --brand: #272757;        /* Primary (navy) */
+  --brand-600: #1f1f48;
+  --brand-50: #ececf5;
+  --secondary: #505081;    /* Secondary */
+  --accent: #ffbf00;       /* Accent (amber) */
+  --accent-50: #fff6d9;
+  --ink: #0f0e47;          /* Text dark */
+  --muted: #6b6b8f;
+  --page: #f3f3f8;         /* page background (lightened Background Light #E4E4EE) */
+  --card: #ffffff;
+  --line: #e4e4ee;
+  --success: #16a34a;
+  --danger: #dc2626;
+  --warning: #f59e0b;
+  --info: #0ea5e9;
+}
+
+@theme inline {
+  --color-brand: var(--brand);
+  --color-brand-600: var(--brand-600);
+  --color-brand-50: var(--brand-50);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-accent-50: var(--accent-50);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-page: var(--page);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-info: var(--info);
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c9c9dc transparent;
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-lg border border-line bg-white px-3 py-2 text-sm text-ink outline-none transition placeholder:text-muted/70 focus:border-brand focus:ring-2 focus:ring-brand/15 disabled:bg-page;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-ink;
+  }
+}
+
+.rich-editor :where(h1, h2, h3) {
+  @apply font-bold;
+}
+.rich-editor h1 { @apply text-2xl; }
+.rich-editor h2 { @apply text-xl; }
+.rich-editor h3 { @apply text-lg; }
+.rich-editor ul { @apply list-disc pl-6; }
+.rich-editor ol { @apply list-decimal pl-6; }
+.rich-editor a { @apply text-brand underline; }
+
+.leaflet-container {
+  font-family: inherit;
+}

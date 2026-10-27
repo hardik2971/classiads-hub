@@ -1,0 +1,18 @@
+# Secrets — never commit
+secret/
+**/.env
+**/.env.*
+!**/.env.example
+*.jks
+*.keystore
+
+# Build outputs / release bundles
+*.aab
+*.apk
+.firebase/
+
+# Dependencies
+node_modules/
+
+# IDE
+.idea/

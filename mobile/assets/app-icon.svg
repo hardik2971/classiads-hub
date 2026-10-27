@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="ClassiAds_Hub">
+  <title>ClassiAds_Hub</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#272757"/>
+      <stop offset="1" stop-color="#505081"/>
+    </linearGradient>
+  </defs>
+  <!-- rounded square background -->
+  <rect width="1024" height="1024" rx="200" fill="url(#bg)"/>
+  <!-- amber 'C' mark -->
+  <path d="M720 360 a210 210 0 1 0 0 304" stroke="#FFBF00" stroke-width="80" stroke-linecap="round" fill="none"/>
+  <circle cx="720" cy="664" r="40" fill="#FFBF00"/>
+</svg>

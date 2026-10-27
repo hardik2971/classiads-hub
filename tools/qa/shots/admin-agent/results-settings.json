@@ -1,0 +1,17 @@
+{
+ "results": [
+  {
+   "name": "Settings → Languages: translations editor add key + save → restore",
+   "ok": false,
+   "ms": 9973,
+   "detail": "existing strings changed: common.search: \"بحث\" → undefined; common.login: \"تسجيل الدخول\" → undefined; common.register: \"إنشاء حساب\" → undefined; common.home: \"الرئيسية\" → undefined; common.categories: \"الفئات\" → undefined; common.favorites: \"المفضلة\" → undefined; common.post_ad: \"أضف إعلان\" → undefined; ad.contact_seller: \"تواصل مع البائع\" → undefined"
+  },
+  {
+   "name": "Settings → File manager browse (public + private folders)",
+   "ok": false,
+   "ms": 35332,
+   "detail": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button').filter({ hasText: /^categories$/ }).first()\u001b[22m\n"
+  }
+ ],
+ "created": []
+}

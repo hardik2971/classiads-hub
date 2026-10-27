@@ -1,0 +1,11 @@
+{
+  "projects": { "default": "classiadshub" },
+  "targets": {
+    "classiadshub": {
+      "hosting": {
+        "web": ["classiadshub"],
+        "admin": ["classiadshub-admin"]
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "classiads-qa",
+  "private": true,
+  "description": "API + browser QA for the Firebase migration",
+  "dependencies": { "playwright-core": "^1.56.1" }
+}

@@ -1,0 +1,120 @@
+{
+ "results": [
+  {
+   "name": "Report reasons (side form, translations)",
+   "ok": true,
+   "ms": 38799,
+   "detail": "#14 create/edit/delete"
+  },
+  {
+   "name": "Tips (modal, toggle, reorder)",
+   "ok": true,
+   "ms": 18644,
+   "detail": "#11 create/edit/toggle/delete"
+  },
+  {
+   "name": "Tips reorder (drag rows → sort_order persisted)",
+   "ok": true,
+   "ms": 7627,
+   "detail": "3 moved to top, restored"
+  },
+  {
+   "name": "Blog categories (modal + slug)",
+   "ok": true,
+   "ms": 17605,
+   "detail": "#9 create/edit/toggle/delete"
+  },
+  {
+   "name": "FAQs (stacked, reorderable)",
+   "ok": false,
+   "ms": 13396,
+   "detail": "toggle off not persisted (true)"
+  },
+  {
+   "name": "Chat templates (lists + category scope)",
+   "ok": true,
+   "ms": 19994,
+   "detail": "#6 create/edit/toggle/delete"
+  },
+  {
+   "name": "Featured ad plans (price in minor units)",
+   "ok": true,
+   "ms": 17108,
+   "detail": "#9 create/edit/toggle/delete"
+  },
+  {
+   "name": "Verification fields (dropdown values)",
+   "ok": true,
+   "ms": 18416,
+   "detail": "#9 create/edit/toggle/delete"
+  },
+  {
+   "name": "Roles (permissions)",
+   "ok": true,
+   "ms": 13615,
+   "detail": "#7 create/edit/delete"
+  },
+  {
+   "name": "Currencies (uppercase code, unique)",
+   "ok": true,
+   "ms": 17752,
+   "detail": "#12 create/edit/toggle/delete"
+  }
+ ],
+ "created": [
+  {
+   "module": "report-reasons",
+   "what": "report_reasons \"QA-ADMIN reason btscv\"",
+   "id": 14,
+   "cleaned": true
+  },
+  {
+   "module": "tips",
+   "what": "tips \"QA-ADMIN tip btscv\"",
+   "id": 11,
+   "cleaned": true
+  },
+  {
+   "module": "blog-categories",
+   "what": "blog_categories \"QA-ADMIN blogcat btscv\"",
+   "id": 9,
+   "cleaned": true
+  },
+  {
+   "module": "faqs",
+   "what": "faqs \"QA-ADMIN faq? btscv\"",
+   "id": 14,
+   "cleaned": false
+  },
+  {
+   "module": "chat-templates",
+   "what": "chat_templates \"QA-ADMIN tpl btscv\"",
+   "id": 6,
+   "cleaned": true
+  },
+  {
+   "module": "featured-plans",
+   "what": "featured_ad_plans \"QA-ADMIN plan btscv\"",
+   "id": 9,
+   "cleaned": true
+  },
+  {
+   "module": "verification-fields",
+   "what": "verification_fields \"QA-ADMIN vf btscv\"",
+   "id": 9,
+   "cleaned": true
+  },
+  {
+   "module": "roles",
+   "what": "roles \"qa-admin-role-btscv\"",
+   "id": 7,
+   "cleaned": true
+  },
+  {
+   "module": "currencies",
+   "what": "currencies \"QA-ADMIN cur btscv\"",
+   "id": 12,
+   "cleaned": true
+  }
+ ]
+}

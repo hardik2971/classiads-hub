@@ -1,0 +1,18 @@
+{
+ "results": [
+  {
+   "name": "Blogs: create (cover, tags, rich text, SEO) → public /blogs → edit (excerpt regen, clear tags) → delete",
+   "ok": false,
+   "ms": 11259,
+   "detail": "stored {\"created_at\":{\"_seconds\":1793026351,\"_nanoseconds\":3000000},\"updated_at\":{\"_seconds\":1793026351,\"_nanoseconds\":3000000},\"title\":\"QA-ADMIN blog dl1c6\",\"slug\":\"qa-admin-blog-dl1c6\",\"body\":\"<p><h2>QA-ADMIN blog dl1c6</p><p>This is AI-assisted draft content generated from your prompt. Add a Gemini API key in S\",\"excerpt\":\"QA-ADMIN blog dl1c6 This is AI-assisted draft content generated from your prompt. Add a Gemini API key in Settings → Gemini AI for full generation.\",\"blog_category_id\":1,\"status\":\"published\",\"tags\":[\"qa-tag-one\",\"qa-tag-two\"],\"meta_title\":\"QA meta title\",\"meta_description"
+  }
+ ],
+ "created": [
+  {
+   "module": "blogs",
+   "what": "blog \"QA-ADMIN blog dl1c6\"",
+   "id": 10,
+   "cleaned": false
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "results": [
+  {
+   "name": "Bank transfer: customer checkout + receipt → admin approves in UI → subscription active + invoice",
+   "ok": true,
+   "ms": 23042,
+   "detail": "txn #33 → sub active, INV-20261026-000033"
+  },
+  {
+   "name": "Bank transfer: reject flow → transaction failed + subscription cancelled",
+   "ok": true,
+   "ms": 11416,
+   "detail": "txn #34 failed"
+  },
+  {
+   "name": "Transactions: filters + details + refund in UI",
+   "ok": true,
+   "ms": 12538,
+   "detail": "txn #33 refunded, sub cancelled"
+  },
+  {
+   "name": "User subscriptions: filter + cancel in UI",
+   "ok": true,
+   "ms": 17034,
+   "detail": "3 subs, none active"
+  }
+ ],
+ "created": [
+  {
+   "module": "users",
+   "what": "QA user qa-admin-buyer-dv47q@classiadshub-qa.dev",
+   "id": 22,
+   "cleaned": false
+  }
+ ]
+}

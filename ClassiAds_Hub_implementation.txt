@@ -1,0 +1,2059 @@
+ClassiAds_Hub - ClassiAds ads Buy and Sell Marketplace Flutter App with Laravel Admin Panel
+
+ClassiAds_Hub – the all-in-one solution with Laravel backend, Flutter mobile apps (Android + iOS), and an SEO-friendly Next.js frontend. Enjoy ad posting, user/subscription management, secure payments, real-time chat, monetization options, and true multi-vendor support. Control everything via a powerful Laravel admin panel. Perfect for creating the Marketplace like OLX, Dubizzle, Kijiji, Avito, Subito, Finn.no, 2dehands.be, or local buy-sell platform – ready for individuals and businesses to thrive!
+
+Technical Specifications
+Backend: Laravel (PHP 8.2+)
+Mobile App: Flutter 3.38.3
+Frontend Website: Next.js (React)
+Database: MySQL
+Payment Gateways: PayPal, Stripe, Razorpay, Paystack, PhonePe, FlutterWave, Bank Transfer
+Notifications: Firebase Cloud Messaging
+Maps: Google Maps & Places API
+Monetization: AdMob (Banner, Interstitial, Native)
+SMS: Twilio Integration
+
+Product Essentials & Requirements
+Payment Gateways (per region) : Stripe, Razorpay, PayPal, Flutterwave, Paystack, PhonePe, PayTabs, DPO. Third-party transaction fees apply.
+Google Maps API: Used for location autocomplete & map display. Charges apply once free allocation is exhausted.
+OTP Service (pick one): Firebase, Twilio, or 2Factor. Free tiers available; charges apply after limits.
+Google Gemini AI (Optional): For AI content generation without limits – configure paid Gemini key in Google Cloud.
+AWS S3 (Optional): For cloud media storage instead of local server. AWS pricing applies.
+VPS / Hosting Requirements: Apache or Nginx, any OS, 2 CPU cores, 2 GB RAM, 20+ GB disk space.
+
+Key Features of ClassiAds_Hub: Your Complete Marketplace Solution
+ClassiAds_Hub is designed for growth, allowing you to manage multiple vendors and categories without difficulty. This makes it the perfect ClassiAds ads marketplace platform.
+
+Multi-Vendor & Scalability
+Multi-Vendor Management: Manage unlimited sellers under one platform with ease. Each vendor operates independently, making it a scalable ClassiAds marketplace solution.
+Subscription & Monetization Platform: Handle seller subscriptions, featured listing packages, and billing cycles from a single, centralized dashboard.
+Flexible Packages: Create specific subscription plans (free listings, featured ads, premium packages) to fit your marketplace’s unique needs.
+Category-Based Subscription Plans: Tailor subscription plans to different categories to maximize revenue potential.
+Multi-Currency Support: Accept payments in multiple currencies with default currency settings and user-preferred options for global reach.
+Marketplace & Listing Management
+Mobile Apps: Flutter ClassiAds apps for Android & iOS with native-like performance.
+Location-Based Listings: Geo-ClassiAds ads by region using Google Maps integration.
+Advanced Search & Filters: Filter listings by category, price, location, custom fields, and more.
+Quick Ad Posting: Sellers can post ads with images, descriptions, custom fields, and pricing within minutes.
+Category Management: Unlimited nested categories with custom fields for niches like real estate, jobs, vehicles, electronics, and more.
+Watermark Feature: Automatically add customizable watermarks to uploaded images to protect content and brand.
+Financial & Subscription Tools
+Subscription Management: Track seller subscriptions, featured ad purchases, invoices, renewals, and receipts.
+Multiple Payment Gateways: Support for PayPal, Stripe, Razorpay, Paystack, PhonePe, FlutterWave, and Bank Transfer.
+Featured & Premium Ads: Offer paid promotions to boost listings’ visibility.
+AdMob Integration: Generate passive revenue with banner, interstitial, and native ads.
+Communication & User Tools
+Real-Time Chat System: Instant messaging for buyers and sellers to negotiate and make offers.
+Firebase Notifications: Role-based push notifications for messages, approvals, expiries, and offers.
+User Verification System: Verify sellers to build trust and credibility.
+Seller Profiles & Ratings: Ratings, reviews, and profiles to help buyers make informed decisions.
+Bookmark & Favorites: Users can save listings to revisit later.
+Content Management & SEO
+Built-in Blog & CMS: Update content directly from the Laravel admin panel with integrated CMS.
+Dynamic SEO Management: Manage metadata, structured data, and sitemaps for all pages, categories, and listings.
+Multi-Language Support: Unlimited languages with RTL compatibility for global audiences.
+Auto-Generated Slugs: SEO-friendly URLs automatically created for listings and categories.
+
+top features:
+1.Verified User Badge
+Confirms the user's identity for trust and authenticity.
+2.Nearby Ads with KM Range
+Customize the distance to filter ads, find nearby listings, and explore options within your km range.
+3.Subscription Module
+Get access to limitless ads & item listings with variety of packages.
+4.Live Chat
+Seamlessly communicate by live chat option
+6.Categories Wise listing
+Simplify browsing with categorized listings for easy navigation
+7.Location Based Item Fetched
+Display items based on preferred locations
+8.Bookmark Items
+Save stuff you like to check out later, making it easier to find them
+9.Firebase Push Notification
+Sent quick notifications directly to user's phone so they don't miss important updates.5.
+10.Convenience Sign-Up Option
+Sign up easily with a simple registration process and get started without any trouble.
+11.Secure Payment Gateway
+Safe payment options making it simple & convenient to pay.
+
+Admin Earning Strategies
+Our ClassiAds platform streamlines ad management and drives revenue with built-in monetization tools.
+
+
+
+Admins earn via:
+1.AdMob Ads
+2.Subscription Plans
+3.Featured Ads
+
+
+
+Application Features:
+Dynamic Home Layout-
+Offers a customizable home page with filter options and layout designs, improving user experience and engagement.
+This screen appears to be the home dashboard of a marketplace or ClassiAds mobile application focused on buying, selling, and property listings.
+
+----
+Main Sections of the Screen
+Top Header
+Displays the current location: Bhuj, Gujarat, India
+Notification and status icons at the top.
+A centered punch-hole camera design of the mobile device is visible.
+Search Bar
+A search input field with placeholder text: “Search any item…”
+Promotional Banner
+A large banner promoting:
+“Buy and Sell Anything in just One Click”
+Includes app store download badges.
+Category Icons
+Horizontal category menu with icons such as:
+Home Appliances
+Furniture & Home
+Clothing & Accessories
+Pets
+Electronics
+Cameras
+Jewelry & Watches
+Mobile Phones & Tablets
+Consoles & Video Games
+Jobs
+Musical Instruments
+Sports Equipment
+Popular Properties Section
+Title: “Popular Properties in your loca…”
+Includes a “See All” option.
+Property cards display:
+Property image
+Price
+Property type/name
+Location
+Favorite/heart icon
+Example Property Listings Visible
+Warehouse — $1250.00
+Villa — $750.00
+Prince Villa 3BHK — $18888.00
+Dream Villa 4BHK — $99999.00
+2BHK House — $200.00
+Bottom Navigation Bar
+Tabs:
+1. Home
+2. Chat
+3. Add (+) button in center
+4. My Ads
+5. Profile
+
+---------
+Explore Ad Detail Screen:
+This screen represents an Explore Ad Detail Screen for a marketplace or ClassiAds ads mobile application. It provides complete information about a selected advertisement and allows users to interact with the seller.
+
+Main Purpose
+
+The screen is designed to help users:
+
+View detailed product/ad information
+Contact the seller
+Make offers
+Save or share ads
+Report issues
+Explore related listings
+Key Sections Highlighted
+Top Area
+Title: Explore Ad Detail Screen
+Description explains the purpose of the page:
+View price
+Specifications
+Seller location
+Related ads
+Connect with seller
+Mobile UI Preview
+Header
+Back navigation arrow
+Share icon
+Ad Image Section
+Large image preview of a red sports car
+Favorite/heart icon overlay
+Ad Information
+Vehicle name:
+Ford Mustang EcoBoost Fastback
+Price displayed prominently
+Location:
+Bhuj, Gujarat, India
+Date posted
+Advertisement Badges/Banners
+Small promotional banners integrated inside content.
+Specification Section
+
+Displays detailed vehicle information such as:
+
+Brand
+Model year
+Kilometers driven
+Fuel type
+Body type
+Transmission type
+Action Buttons
+Make an Offer
+Chat
+About the Advertisement
+Detailed textual description of the listing
+Financing and pricing information
+Seller Information
+Seller profile card with:
+Profile image
+Verified badge
+Ratings
+Seller name (Emma Williams)
+Location Section
+Embedded map showing ad location
+Report Section
+Option to report problems with the ad:
+“Report this ad”
+Related Ads
+
+Displays similar listings at the bottom with:
+
+Image
+Price
+Vehicle name
+Location
+Time posted
+Side Feature Labels in the Design
+
+The image visually highlights available features around the phone mockup:
+
+Ad Image
+Ad Title & Price
+Ad Specification
+User Details
+Report Ad
+Share Ad
+Favorite Ad
+Ad Description
+Ad Location
+Related Ads
+
+----------
+Multi SMS Gateway Support:
+Get OTP via Firebase, Twilio, and 2Factor for flexible and secure user verification.
+SMS Gateways
+1. Firebase
+2. Twilio
+3. two Factor
+
+--------------
+Follow Your Favorite Sellers:
+Main Heading
+Follow Your Favorite Sellers
+Subtitle:
+Stay updated with sellers you trust.
+Follow them to get notified about their latest listings.
+Left Mobile Screen – Seller Profile
+
+This section displays a seller’s public profile page.
+
+Seller Information
+Profile image/avatar
+Seller role/title:
+Designer
+Rating and reviews
+Email address and phone number
+Member since date
+Follow Statistics
+Followers count
+Following count
+Blue Follow button
+Tabs
+Live Ads
+Ratings
+Product Listings
+
+Grid layout showing seller advertisements with:
+
+Product image
+Price
+Product title
+Location
+Time posted
+Favorite/heart icon
+
+Example listings visible:
+
+Clothing/Fashion Store listing
+Apple MacBook Pro listing
+Center Action Button
+Floating circular “+ Follow” button visually connecting both screens.
+Right Mobile Screen – Followers List
+
+Displays a list of followers/following users.
+
+Tabs
+Followers
+Following
+User List
+
+Each row contains:
+
+User profile picture
+Username
+Navigation arrow
+
+Example names shown:
+
+pihejeh
+Isack Manene
+Shihab Al Muntasir Bhuiyan
+
+---------
+Multiple Currencies feature: 
+Key Elements:
+Heading: “Multiple Currencies”
+Description: Emphasizes multi-currency pricing support for international users.
+Mobile App Preview: Displays the marketplace home screen with categorized product listings.
+Product Categories Shown:
+Cars
+Fashion
+Electronics
+Home appliances
+Real estate
+Different Currency Formats: Product prices are displayed using multiple currency symbols and number formats.
+Improved Feature Tag: Indicates this is an upgraded or enhanced functionality.
+
+------
+Multiple Login Options: 
+Key Elements:
+Heading: “Multiple Login Options”
+Description: Explains that users can log in using Google, Apple, email, or phone number authentication.
+Improved Feature Tag: Highlights this as an upgraded functionality.
+Login Screen Preview: Displays a mobile login interface with:
+Phone number input field
+Password field
+Continue button
+Sign-up option
+Authentication Methods Displayed:
+Google Login
+Apple Login
+Email Login
+Phone Login
+Social Login Buttons: Includes “Continue with Google” and “Continue with Email” options.
+
+
+---------
+Unlimited Custom Fields feature:
+Key Elements:
+Heading: “Unlimited Custom Fields”
+Description: Explains that users can add unlimited options such as color, size, unit, and other custom specifications to tailor listings.
+Mobile Listing Preview: Displays a detailed vehicle product listing screen inside a smartphone mockup.
+Custom Attributes Displayed Around the Screen:
+Behavior/Temperament – Friendly
+Compatibility – Amazon Alexa
+Accessibility – Ramp Access
+Type – Sportbike
+Unit Type – Warehouse
+Kilometer – 10,000 km
+Screen Size – 6.7 inches
+Type – Over-Ear
+Parking – Truck Parking
+Detailed Product Information: Includes price, model details, specifications, and action buttons like “Make an offer” and “Chat”.
+
+
+
+------
+Seller-Buyer Review System feature:
+Key Elements:
+Heading: “Seller-Buyer Review System”
+Description: Explains how sellers confirm buyers after a sale, while buyers can leave ratings and reviews for sellers to ensure secure and reliable trading.
+Seller Profile Screen: Displays a seller’s public profile with:
+Profile image and seller information
+Ratings summary and review statistics
+Followers/following count
+Follow button
+Customer reviews and feedback
+Seller Review Section: Shows a popup interface where buyers can:
+Rate the seller using stars
+Write review comments
+Submit feedback
+Buyer Review/Verification Section: Displays a “Who bought?” interface allowing sellers to confirm the actual buyer from a purchase list.
+Trust-Based Marketplace Design: The layout emphasizes transparency, verified transactions, and community-driven credibility.
+
+----
+Location-Based Item Fetching feature:
+Key Elements:
+Heading: “Location-Based Item Fetching”
+Description: Explains that items are fetched according to the user’s location for a more personalized browsing experience.
+Dual Mobile Screens: Two smartphone previews display listings from different locations:
+Bhuj, Gujarat, India
+Dubai, United Arab Emirates
+Localized Listings: Each screen shows products and properties relevant to its specific region.
+Categories Displayed:
+Real estate
+Electronics
+Fashion
+Vehicles
+Pets
+Home & furniture
+Personalized Marketplace Experience: Listings such as villas, watches, shoes, and other products vary depending on the selected location
+
+
+-----
+chat management feature for a marketplace or e-commerce app and ocused on tracking conversations by product.:
+Screen Purpose:
+
+The screen helps users organize product-related chats, making it easier to track negotiations, product demand, and buyer communication.
+
+Header Section
+Title: “Track Chats by Product”
+Description:
+“Organize chats by product for better clarity. Understand demand and respond more efficiently.”
+
+This explains that users can manage customer inquiries product-wise.
+
+first Mobile Screen (Chat List)
+
+The first UI shows a chat inbox with two tabs:
+
+Selling (active)
+Buying
+
+Features visible:
+
+List of product-related conversations.
+Each chat item includes:
+Product image
+Product name
+Recent activity/time
+Unread message indicator
+Small user avatars showing interested buyers.
+
+Example products:
+
+Gaming keyboard
+Running shoes
+Sneakers
+Headphones
+
+This section helps sellers quickly see which products are getting inquiries.
+
+second Mobile Screen (Chat Conversation)
+
+The second UI displays a detailed product chat conversation.
+
+Visible elements:
+
+Product information card at the top
+(Product image, title, and price: ₹200.00)
+Buyer–seller negotiation chat
+Example conversation:
+Seller: Product available for $200
+Buyer: Would you take $150?
+Seller: How about $160?
+Buyer agrees: “Deal! I’ll take them for $160.”
+
+
+
+-----
+Blog Module screen:
+
+Screen Purpose
+
+The module allows businesses or app owners to publish blogs and announcements directly inside the app, helping users stay informed and engaged.
+
+Header Section
+Title: “Blog Module”
+Description:
+“Share updates, tips, and news directly in your app. Engage users with informative and promotional blog posts, all in one place.”
+
+This highlights the goal of improving user engagement through content.
+
+first screen– Blog Listing Screen
+
+The first screen displays a blog card/list layout showing multiple blog posts.
+
+Each blog card contains:
+
+Featured image/banner
+Blog title
+Preview content
+
+Example blog topics shown:
+
+Secure Transactions Made Simple
+Focused on secure payments and trust.
+In-App Chat Feature
+Explains communication between buyers and sellers.
+Customizable Themes
+Discusses personalization and app themes.
+
+This layout works like a blog/news feed, allowing users to browse articles visually.
+
+second screen – Blog Detail Screen
+
+The second screen mobile screen shows the full blog article page.
+
+Visible features:
+
+Blog banner image at the top
+Publish date (e.g., June 24)
+Blog title
+Detailed article content
+Bullet-point highlights
+
+The article discusses features such as:
+
+Versatile categories
+Enhanced communication
+Secure transactions
+Personalization options
+Subscription benefits
+
+
+--------
+
+Satrt Website
+E-classify Website Feature:
+
+-----
+Modernized Home Screen for an e-commerce or ClassiAds marketplace platform:
+
+Screen Purpose
+
+The home screen acts as the main dashboard, helping users quickly browse categories, search products, and discover featured promotions in a clean and user-friendly layout.
+
+Header Section
+Title: “Modernized Home Screen”
+Description:
+“A sleek, user-friendly interface offering quick access to all features and sections.”
+
+This highlights the focus on ease of navigation and accessibility.
+
+Top Navigation Bar
+
+The header contains multiple important elements:
+
+Brand Logo (ClassiAds_Hub) for platform identity.
+Category Dropdown for browsing product sections.
+Search Bar to quickly find products or listings.
+Location Selector (e.g., Surat, Gujarat, India) for location-based browsing.
+Login / Register Options for account access.
+Language or Region Selector for localization.
+
+This section improves searchability and navigation.
+
+Hero Banner Section
+
+The center area contains promotional banners:
+
+Left Promotional Banner
+Highlights the platform’s main offering:
+“Buy and Sell Anything in Just One Click”
+Includes:
+App branding
+Mobile app preview
+App Store & Google Play download buttons
+
+This promotes app downloads and marketplace activity.
+
+Right Promotional Banner
+Product-focused advertisement:
+“Looking for Your Smartphone?”
+Encourages users to explore smartphone deals or featured listings.
+
+These banners improve engagement and conversions.
+
+Popular Categories Section
+
+The bottom section displays icon-based product categories for fast browsing.
+
+Visible categories include:
+
+Home Appliances
+Consoles & Video Games
+Electronics
+Musical Instruments
+Furniture, Home & Garden
+Mobile Phones & Tablets
+Clothing & Accessories
+Pets
+Sports Equipment
+
+Each category uses:
+
+Minimal circular icons
+Clear labels
+Quick tap/click access to listings.
+
+
+
+-------
+Smart Search by Categoryfeature:
+
+Screen Purpose
+
+The screen is designed to help users find products faster by combining:
+
+Category selection
+Keyword search
+Advanced filters
+Product browsing
+
+This improves product discovery and user experience.
+
+Header Section
+Title: “Smart Search by Category”
+Description:
+“Easily discover items by browsing through intelligently organized categories tailored to your needs.”
+
+This highlights the platform’s organized and user-friendly search system.
+
+Top Navigation Bar
+
+The header contains essential browsing features:
+
+ClassiAds_Hub Logo for brand identity.
+Category Dropdown (Electronics selected).
+Search Bar where users can type product keywords (e.g., headphone).
+Search Button for quick results.
+Location Selector (e.g., Surat, Gujarat, India).
+Login / Register Options for account access.
+Language/Country Selector.
+
+This section enables quick and location-based product searching.
+
+Smart Search Section
+
+A highlighted search panel is shown at the top center featuring:
+
+Selected Category: Electronics
+Keyword Input: headphone
+Search Button
+
+This demonstrates how users can search within a specific category, improving result accuracy and reducing irrelevant listings.
+
+Left Sidebar – Filters Panel
+
+The left side contains advanced filtering options to narrow down product searches.
+
+Visible filters include:
+
+Category List
+Electronics
+Home Appliances
+Furniture
+Mobile Phones & Tablets
+Clothing & Accessories
+Pets
+Sports Equipment
+And more
+
+Additional filters:
+
+Location
+Budget/Price Range
+Date Posted
+
+This helps users refine searches based on preferences.
+
+Product Listing Grid
+
+The center/right section displays a grid of product cards with:
+
+Each product card includes:
+
+Product image
+Product name
+Price
+Location
+Posted time/date
+Favorite/Wishlist icon
+
+Example products shown:
+
+Luxury watches
+Smartwatches
+LED TVs
+Electronics accessories
+Sorting & View Options
+
+Users can:
+
+Sort products (e.g., Newest to Oldest)
+Switch between grid/list views using display icons.
+
+
+------
+Personalized Profile: 
+allowing users to manage their account, listings, preferences, and personal information from one centralized dashboard
+
+Screen Purpose
+
+The profile screen is designed to help users customize and manage their account settings, monitor activity, and update personal details easily.
+
+Header Section
+Title: “Personalized Profile”
+Description:
+“Manage your account, view your listings, and update your personal information with ease.”
+
+This emphasizes easy account management and personalization.
+
+Top Navigation Bar
+
+The header includes important platform navigation elements:
+
+ClassiAds_Hub Logo for branding.
+Category Dropdown for browsing listings.
+Search Bar to search products.
+Location Selector (Toronto, Ontario, Canada).
+User Profile Indicator
+Post Ad Button for creating listings.
+Language Selector
+
+This ensures quick access to major platform features.
+
+Left Sidebar – Profile Navigation
+
+The left panel provides a menu for account-related actions, helping users switch between sections quickly.
+
+Visible options include:
+
+Edit Profile (currently active)
+Notifications
+Chat
+Subscription
+Ads/Listings
+Favorites
+Transactions
+Sign Out
+Delete Account
+
+This sidebar acts as a personal account management dashboard.
+
+-------
+Instant Notifications feature:
+designed to keep users updated in real time about important activities, messages, listings, and platform updates.
+
+Screen Purpose
+
+The notifications module helps users stay informed about:
+
+New listings
+Messages and chat activity
+Promotional offers
+Account updates
+Marketplace alerts
+
+This ensures users never miss important updates.
+
+Header Section
+Title: “Instant Notifications”
+Description:
+“Stay informed with real-time notifications about new listings, messages, and updates.”
+
+This emphasizes real-time engagement and communication.
+
+Top Navigation Bar
+
+The top section includes essential platform features:
+
+ClassiAds_Hub Logo for branding.
+Category Dropdown to browse listings.
+Search Bar for searching ads or products.
+Location Selector to browse nearby listings.
+User Account/Profile
+“Add Listing” Button to post new ads.
+Language Selector
+
+This enables users to navigate quickly across the platform.
+
+Left Sidebar – Account Navigation
+
+The left panel contains a profile management menu with quick access to account sections:
+
+Visible menu options:
+
+Profile
+Notifications (currently active)
+Chat
+Subscription
+My Ads
+Favorites
+Transactions
+Reviews
+Job Applications
+Sign Out
+Delete Account
+
+This acts as a centralized user dashboard navigation.
+
+Main Notifications Panel
+
+The center section displays a list of notifications in an organized format.
+
+Each notification includes:
+
+Notification icon/logo
+Message or alert summary
+Date received
+
+Examples of notification types shown:
+
+Limited-time offers and discounts
+Marketplace promotions
+Exclusive deals
+New updates or features
+Listing-related announcements
+
+The notifications are arranged in a timeline/list format, making it easy to review recent activity.
+
+------------
+Live Chat Seller and Buyer :
+enabling real-time communication between buyers and sellers for seamless product inquiries and negotiations.
+
+Screen Purpose
+
+The live chat system allows users to communicate instantly, helping buyers ask questions, negotiate prices, and finalize purchases directly within the platform.
+
+Header Section
+Title: “Live Chat Seller and Buyer”
+Description:
+“Communicate directly with sellers and buyers through our seamless chat system.”
+
+This highlights the platform’s real-time messaging capability.
+
+Top Navigation Bar
+
+The top navigation provides quick access to major platform features:
+
+ClassiAds_Hub Logo for branding.
+Category Dropdown for browsing listings.
+Search Bar to find products or ads.
+Location Selector
+User Profile/Account
+“Add Listing” Button for posting new products.
+Language Selector
+
+This helps users navigate the marketplace while chatting.
+
+Left Sidebar – Account Navigation
+
+The left panel displays the user dashboard menu, allowing access to different account sections:
+
+Visible options include:
+
+Profile
+Notifications
+Chat (currently active)
+Subscription
+My Ads
+Favorites
+Transactions
+Reviews
+Job Applications
+Sign Out
+Delete Account
+
+This sidebar ensures quick switching between account features.
+
+Middle Panel – Chat List
+
+The center section contains a conversation list showing active chats.
+
+Each chat includes:
+
+User profile/avatar
+Buyer or seller name
+Recent message preview
+Unread message indicators
+
+This allows users to quickly manage multiple conversations.
+
+Right Panel – Live Chat Window
+
+The right side displays an active conversation screen between a buyer and seller.
+
+Features include:
+
+Product details at the top
+Real-time message bubbles
+Negotiation and inquiry chat
+Message timestamps
+Text input box for sending messages
+
+The conversation demonstrates a buyer discussing a product and negotiating directly with the seller.
+
+
+-----------
+Category Based Subscription: 
+Screen Purpose
+
+The subscription module helps users select category-specific advertising plans, giving them better control over where and how they post listings.
+
+Header Section
+Title: “Category Based Subscription”
+Description:
+“Choose a subscription for specific categories and post ads where it matters most, Get better control over your listings.”
+
+This highlights targeted subscriptions for better ad visibility and listing management.
+
+Top Navigation Bar
+
+The header includes core marketplace navigation features:
+
+ClassiAds_Hub Logo for platform branding.
+Category Dropdown for browsing listings.
+Search Bar to find ads or products.
+Location Selector
+User Account/Profile
+“Ad Listing” Button to create new listings.
+Language Selector
+
+This provides quick access to the platform while managing subscriptions.
+
+Subscription Category Selection
+
+At the top of the content area, users can select a specific category for their subscription plan.
+
+Example selected category:
+
+TV & Home Theater
+
+This allows users to subscribe only to categories relevant to their business or products.
+
+Ad Listing Subscription Plans
+
+The main section displays multiple pricing plans in a card layout.
+
+1. Monthly Pack
+Affordable entry-level subscription
+Includes:
+Limited ad postings
+Short listing validity
+Basic visibility features
+
+Suitable for small or occasional sellers.
+
+2. 3 Month Pack
+Mid-tier subscription plan
+Offers:
+More ad capacity
+Longer listing duration
+Better visibility and seller support
+
+Ideal for growing businesses or active sellers.
+
+3. Yearly Pack
+Premium subscription package
+Includes:
+Maximum listing validity
+Larger ad limits
+Premium placement
+Full platform access
+
+Best for professional sellers or businesses with high-volume listings.
+
+Each plan contains:
+
+Pricing information
+Ad limits
+Feature list
+Supported categories
+“Choose Plan” button
+
+---------------
+Effortless Ad Listings feature
+designed to help users post and manage advertisements easily through a structured listing form.
+
+Screen Purpose
+
+The ad listing module enables users to create product or service advertisements quickly, making it easier to reach potential buyers and manage listings efficiently.
+
+Header Section
+Title: “Effortless Ad Listings”
+Description:
+“Post and manage your advertisements effortlessly, reaching a wide audience.”
+
+This highlights the platform’s goal of simplifying ad creation and maximizing visibility.
+
+Top Navigation Bar
+
+The top navigation includes key marketplace features:
+
+ClassiAds_Hub Logo for branding.
+Category Dropdown for browsing products.
+Search Bar to search advertisements.
+Location Selector for location-based listings.
+User Profile/Account
+“Ad Listing” Button (highlighted) for creating a new listing.
+Language Selector
+
+This ensures users can easily navigate the platform while posting ads.
+
+Ad Listing Form
+
+The main section displays a step-by-step ad creation form with multiple tabs for completing listing details.
+
+Listing Steps/Tabs
+
+The listing process is divided into sections:
+
+Select Category
+Choose the relevant product or service category.
+Details (currently active)
+Add essential listing information.
+Extra Details
+Include additional specifications or attributes.
+Images
+Upload product photos for better visibility.
+Location
+Set the ad’s geographical location.
+
+This structured flow makes ad creation more organized and user-friendly.
+
+Listing Details Form
+
+The active Details section contains input fields such as:
+
+Selected Category
+Example: Home Appliances → Fitness Programs & Fitness
+Title
+Enter the advertisement title.
+Description
+Add detailed product/service information.
+Price
+Set product pricing.
+Phone Number
+Provide contact details.
+Video Link
+Add an optional product demonstration or promotional video.
+Slug
+Create a custom URL-friendly listing identifier.
+Navigation Controls
+
+At the bottom:
+
+Back Button to return to the previous step.
+Next Button to continue the listing process.
+
+------------
+Saved Favorites feature:
+allowing users to save and manage products they are interested in for future reference.
+
+Screen Purpose
+
+The favorites module helps users bookmark listings, making it easier to revisit products without searching again.
+
+Header Section
+Title: “Saved Favorites”
+Description:
+“Save and keep track of items you are interested in for future reference.”
+
+This emphasizes easy product tracking and personalized shopping.
+
+Left Sidebar – Account Navigation
+
+The left panel displays the user profile dashboard menu, helping users navigate account-related sections.
+
+Visible options include:
+
+Edit Profile
+Notifications
+Chat
+Subscription
+Ads
+Favorites (currently active)
+Transactions
+Sign Out
+Delete Account
+
+This sidebar provides quick access to different account management features.
+
+Main Favorites Section
+
+The center area displays a grid of saved products that users have marked as favorites.
+
+Each favorite item card includes:
+
+Product image
+Price
+Product title/name
+Location
+Posted time/date
+Favorite (heart) icon to save or remove items
+Example Saved Products
+
+The screen displays various saved listings, including:
+
+Security Camera
+Luxury Car
+Sports Bike
+Home Interior/Furniture
+Luxury Watch
+Pet/Cat Listing
+
+This demonstrates support for multiple product categories.
+
+Favorites Grid Layout
+
+Products are shown in an organized card-based grid, allowing users to:
+
+Browse saved products visually
+Compare listings easily
+Return to products later
+Quickly remove favorites if no longer interested
+
+-------------
+Flexible Login Options feature:
+allowing users to sign in quickly using multiple authentication methods for a seamless experience.
+
+
+Screen Purpose
+
+The login module is designed to provide users with easy and convenient access to their accounts, improving onboarding and reducing login friction.
+
+Header Section
+Title: “Flexible Login Options”
+Description:
+“Access your account using various login methods for added convenience.”
+
+This emphasizes simple, secure, and flexible account access.
+
+Background – Home Screen Preview
+
+Behind the login popup, the platform’s home screen is visible, featuring:
+
+Promotional banners
+Category icons
+Search and navigation bar
+Marketplace browsing interface
+
+This creates a smooth transition between browsing and account access.
+
+Login Popup Modal
+
+The center of the screen displays a login dialog box (modal) for user authentication.
+
+Login Features Included
+
+1. Phone Number Login
+Users can log in using:
+
+Email or Phone Number field
+Input for account credentials
+Continue button to proceed
+
+This supports fast account access.
+
+2. Social Login Option
+Users can sign in using:
+
+Google Login
+
+This provides one-click authentication, reducing manual registration effort.
+
+3. Account Registration
+For new users:
+
+“Create account” option available
+
+This allows quick user onboarding.
+
+4. Terms & Privacy
+The popup includes:
+
+Terms of Service
+Privacy Policy
+
+Ensuring transparency and compliance.
+
+Top Navigation Bar
+
+Visible in the background:
+
+ClassiAds_Hub Logo
+Category Dropdown
+Search Bar
+Location Selector (Dubai)
+Login/Register Options
+Language Selector
+
+
+
+
+start admin panel
+---------------
+Admin Panel Features
+------------
+
+
+Admin Panel Features – Insightful Dashboard:
+platform, designed to help administrators monitor platform performance, manage users, and analyze key business metrics efficiently.
+
+
+Screen Purpose
+
+The admin dashboard acts as a central control panel where administrators can oversee platform activities, manage listings, track analytics, and handle operational tasks from one place.
+
+Header Section
+Title: “Admin Panel Features”
+Subheading: “Insightful Dashboard”
+Description:
+“Get a quick overview and track recent activity. Monitor key metrics and analyze trends effortlessly.”
+
+This highlights the dashboard’s role in platform monitoring and business insights.
+
+Left Sidebar – Admin Navigation
+
+The left panel contains a management menu with access to different administrative functions.
+
+Visible menu options include:
+
+Core Management
+Dashboard (currently active)
+Ads Listing
+Chats
+Package Management
+Seller Management
+Forms & Blogs
+Users & Roles
+Location
+Reports
+Notifications
+Settings
+Settings
+System Updates
+
+This sidebar provides administrators with quick access to all platform controls.
+
+Main Dashboard Overview
+
+The center section displays key performance indicators (KPIs) and platform statistics.
+
+Metrics Cards
+
+The dashboard highlights important data such as:
+
+Total Customers: 4218
+Total Advertisements: 1348
+Total Categories: 250
+Custom Fields: 305
+
+These cards provide a quick snapshot of platform performance.
+
+Featured Sections Panel
+
+A table section displays featured content or homepage sections, including:
+
+Section ID
+Style/Preview Image
+Title
+Category Criteria/Filters
+
+Examples shown:
+
+Popular Categories
+Top Fashion Near You
+Top Cars Near You
+
+This helps admins manage featured content visibility.
+
+Analytics / Most Viewed Section
+
+At the bottom, a world map visualization appears under “Most Viewed”, likely showing:
+
+User traffic locations
+Listing engagement
+Geographic activity trends
+
+This enables administrators to analyze user behavior geographically.
+
+Top Header Controls
+
+Top-right controls include:
+
+Language Selector
+Admin Profile
+
+These support localization and account access.
+
+
+------
+Category Management feature:
+allowing administrators to create, organize, and manage product categories efficiently for the marketplace platform.
+
+Screen Purpose
+
+The category management module helps admins control product classifications, ensuring listings are well-structured and easy for users to browse.
+
+Header Section
+Title: “Category Management”
+Description:
+“Admin can efficiently manage and organize item categories”
+
+This highlights the system’s focus on organized marketplace structure and category control.
+
+Top Navigation Bar
+
+The top-right section includes:
+
+Language Selector
+Admin Profile Access
+
+The top-left area contains:
+
+Menu Toggle
+Admin Mode Indicator
+
+This ensures quick access to dashboard controls.
+
+Main Category Management Table
+
+The center section displays a category listing table, where administrators can manage all marketplace categories.
+
+Each row contains important category information:
+
+Category Details
+Category ID
+Category Name
+Category Icon/Image
+Number of Subcategories
+Custom Fields
+Advertisement Count
+Status (Active/Inactive)
+
+Example categories shown:
+
+Home Appliances
+Furniture, Home & Garden
+Clothing & Accessories
+Pets
+Cars & Vehicles
+Electronics
+Cameras & Imaging
+Jewelry & Watches
+Mobile Phones & Tablets
+Consoles & Video Games
+
+This helps admins monitor category usage and listing distribution.
+
+Category Actions
+
+Each category includes action buttons for management tasks:
+
+Edit – Modify category details
+Delete – Remove categories
+Additional Controls – Manage settings or configurations
+
+Admins can also:
+
+Enable/Disable categories using toggle switches.
+Additional Features
+
+At the top of the table:
+
+“Add Category” button for creating new categories.
+Search bar to quickly find categories.
+Category sorting/order management option.
+
+At the bottom:
+
+Pagination controls for navigating multiple pages.
+
+
+------------
+Custom Field Management feature:
+Screen Purpose
+
+The custom field management module enables admins to add flexible, category-based input fields, ensuring sellers can provide detailed and relevant information when posting listings.
+
+Header Section
+Title: “Custom Field Management”
+Description:
+“Create custom fields for categories of items to meet specific requirements, ensuring flexibility and adaptability.”
+
+This emphasizes customization and flexibility for different product categories.
+
+Top Navigation Bar
+
+The top-right section includes:
+
+Language Selector
+Admin Profile Access
+
+The top-left section contains:
+
+Menu Toggle
+Admin Mode Indicator
+
+This provides easy access to platform settings and navigation.
+
+Filter & Search Section
+
+At the top of the content area, administrators can filter custom fields using:
+
+Category Filter Dropdown
+Select a category (e.g., Pets, Vehicles, Electronics).
+Type Filter Dropdown
+Filter fields by input type.
+Search Bar
+Quickly search for a specific custom field.
+
+This improves management efficiency for large datasets.
+
+Main Custom Fields Table
+
+The center section displays a list of custom fields configured for different categories.
+
+Each row contains:
+
+Field Details
+Field ID
+Field Icon/Image
+Field Name
+Category
+Field Type
+
+Examples shown:
+
+Breed → Horses, Fish, Birds, Cats, Dogs (Dropdown field)
+Behavior/Temperament → Pets (Dropdown field)
+Registration → Pets (Radio button field)
+Health Condition → Pets (Radio field)
+Vaccination Status → Pets (Radio field)
+Size → Pets (Dropdown field)
+
+This ensures listings capture category-specific details.
+
+Field Actions
+
+Each custom field includes action buttons such as:
+
+Edit – Modify field details
+Delete – Remove unnecessary fields
+
+These controls help admins maintain field configurations.
+
+Additional Features
+“Create Custom Field” button for adding new fields.
+Pagination controls for navigating large field lists.
+Organized table layout for easier management.
+
+
+-------------
+Item Approval feature:
+allowing administrators to review, approve, or reject product listings before they go live on the marketplace to maintain platform quality and trust.
+
+Screen Purpose
+
+The item approval module helps admins moderate advertisements and listings, ensuring content quality, authenticity, and compliance with platform standards.
+
+Header Section
+Title: “Item Approval”
+Description:
+“Admin can approve or reject items, maintaining quality & consistency within the platform.”
+
+This highlights the platform’s content moderation and quality control process.
+
+Top Navigation Bar
+
+The top-right section includes:
+
+Language Selector
+Admin Profile Access
+
+The top-left section contains:
+
+Menu Toggle
+Demo/Admin Mode Indicator
+
+This allows administrators to quickly access platform settings and navigation.
+
+Filter Section
+
+At the top-left of the content area, admins can filter listings based on:
+
+Featured / Premium Status
+Country
+City
+
+These filters help administrators review listings by location and subscription type.
+
+Main Advertisement Approval Table
+
+The center section displays a detailed list of submitted advertisements awaiting management.
+
+Each listing row contains important information such as:
+
+Listing Details
+Advertisement ID
+Product Name
+Short Description
+Seller/User Name
+Price
+Main Product Image
+Additional Images
+Country, State & City
+Premium/Featured Status
+Approval Status
+Activation Toggle
+
+Example listings shown:
+
+Sneakers
+Luxury watches
+Electronics
+Beauty products
+Fashion accessories
+
+This provides admins with a complete overview before approving content.
+
+Approval & Moderation Actions
+
+Each listing includes quick admin actions such as:
+
+Approve Item – Allow listing to go live.
+Reject/Delete Item – Remove inappropriate or invalid listings.
+Status Toggle – Enable or disable visibility.
+View/Edit Controls – Review item details if needed.
+
+Approved items are visibly marked with an “Approved” status badge.
+
+Additional Features
+Search Bar to quickly find listings.
+Pagination Controls for navigating large numbers of submissions.
+Premium Labeling to identify paid or promoted listings.
+
+--------------
+
+Package Management feature:
+enabling administrators to create, manage, and control advertisement listing packages and pricing plans for users on the marketplace platform.
+
+Screen Purpose
+
+The package management module allows admins to configure monetization plans, helping users choose subscription packages based on listing limits, duration, and premium benefits.
+
+Header Section
+Title: “Package Management”
+Description:
+“Manage user’s listing packages & advertisement packages, offering users different monetization options.”
+
+This highlights the platform’s subscription and revenue management system.
+
+Top Navigation Bar
+
+The top-right section includes:
+
+Language Selector
+Admin Profile Access
+
+The top-left area contains:
+
+Menu Toggle
+Demo/Admin Mode Indicator
+
+This allows administrators to access settings and navigate the system easily.
+
+Left Panel – Create Package Form
+
+The left section provides a package creation form, where admins can add new advertisement plans.
+
+Package Configuration Fields
+
+Admins can define:
+
+Package Name
+Set the subscription package title.
+iOS Product ID
+Configure App Store in-app purchase integration.
+Price ($)
+Set the package cost.
+Discount (%)
+Add promotional discounts.
+Final Price ($)
+Display adjusted pricing after discounts.
+Package Image/Icon
+Upload a visual icon for the package.
+Description
+Add package details and benefits.
+Package Limits
+
+Admins can configure:
+
+Duration (Days) – Package validity period
+Advertisement Limit – Number of ads users can post
+Unlimited Options for premium plans
+
+A “Add Package” button allows admins to create and publish new plans.
+
+Right Panel – Package Listing Table
+
+The right section displays a list of existing subscription packages.
+
+Each package row includes:
+
+Package ID
+Package Icon/Image
+Package Name
+Validity (Days)
+Advertisement Limit
+Price
+Discount Percentage
+Final Price
+Status (Active/Inactive)
+Action Controls
+Example Packages Shown
+
+Different membership tiers are visible, such as:
+
+Platinum Package
+Diamond Package
+Gold Package
+Silver Package
+Bronze Package
+
+These represent different pricing levels and benefits.
+
+Package Management Actions
+
+Admins can:
+
+Enable/Disable packages
+Edit package details
+Manage pricing and limits
+Search packages quickly
+
+--------------
+Slider Management feature:
+allowing administrators to manage promotional sliders/banners displayed across the platform to highlight featured content, advertisements, or important announcements.
+
+Screen Purpose
+
+The slider management module helps admins control homepage banners and promotional sliders, improving visibility for featured products, categories, and marketing campaigns.
+
+Header Section
+Title: “Slider Management”
+Description:
+“Admin can manage sliders to highlight important content or promotions effectively.”
+
+This highlights the platform’s focus on content promotion and visual engagement.
+
+Top Navigation Bar
+
+The top-right section includes:
+
+Language Selector
+Admin Profile Access
+
+The top-left area contains:
+
+Menu Toggle
+Demo/Admin Mode Indicator
+
+This enables quick access to admin settings and navigation.
+
+Left Panel – Create Slider Form
+
+The left section contains a slider creation and management form, where admins can add new promotional banners.
+
+Slider Configuration Fields
+
+Admins can configure:
+
+Image Upload
+Upload banner/slider images for display.
+Item Selection
+Choose whether the slider links to:
+Advertisement
+Featured item/content
+Category Selection
+Select a category for targeted promotion.
+Third-Party Link
+Add an external URL for redirection (optional).
+
+This allows admins to create interactive promotional sliders.
+
+A “Save” button is provided to publish or update slider settings.
+
+Right Panel – Slider Listing Table
+
+The right section displays a list of existing sliders currently configured on the platform.
+
+Each slider row includes:
+
+Slider ID
+Preview Image
+Slider Type
+Item/Product Name
+Third-Party Link
+Action Controls
+
+
+-----------
+Staff Management feature:
+allowing administrators to manage staff members through a role-based access system, ensuring secure permissions and operational accountability.
+
+
+Screen Purpose
+
+The staff management module helps admins create, manage, and control staff accounts, assigning responsibilities and access levels for platform operations.
+
+Header Section
+Title: “Staff Management”
+Description:
+“Admin can manage staff members using a role-based system, ensuring proper access control and accountability.”
+
+This highlights the platform’s focus on team management and permission control.
+
+Main Staff Management Dashboard
+
+The screen displays a staff listing table, where administrators can view and manage all staff members.
+
+At the top:
+
+“Create New Staff” button to add new staff members.
+Staff Listing Table
+
+The center section shows a structured table containing staff details.
+
+Each row includes:
+
+Staff Information
+Staff ID
+Name
+Email Address
+Status (Active/Inactive)
+Action Controls
+Example Staff Roles Shown
+
+The screen includes various staff members with different responsibilities, such as:
+
+Support Person – Handles customer support queries.
+Tech Person – Manages technical operations.
+Content Creator – Handles content and updates.
+Editor – Reviews and edits platform content.
+
+This demonstrates a multi-role administrative team structure.
+
+Status Management
+
+Admins can:
+
+Enable or disable staff accounts using toggle switches.
+Control whether a staff member has platform access.
+Action Controls
+
+Each staff member includes quick management actions such as:
+
+Edit Staff Details – Update role or account information.
+Delete Staff Member – Remove access if no longer needed.
+Additional Features
+Search Bar to quickly find staff members.
+Pagination controls for managing larger staff lists.
+
+
+
+-----------
+Multilingual Support” feature:
+allowing administrators to manage multiple languages and localization settings, enabling users to access the platform in their preferred native language.
+
+Screen Purpose
+
+The multilingual management module helps admins add, configure, and manage language support, making the platform accessible to users from different regions and languages.
+
+Header Section
+Title: “Multilingual Support”
+Description:
+“It support multiple languages, users to access the app in their native language”
+
+This highlights the platform’s focus on global accessibility and localization.
+
+Left Panel – Add Language Form
+
+The left section contains a language configuration form, where administrators can add new languages to the platform.
+
+Language Setup Fields
+
+Admins can configure:
+
+Language Name
+Enter the display name of the language.
+Language Code
+Add the language identifier (e.g., EN, FR, AR).
+Language Image/Flag
+Upload a flag or representative icon.
+RTL (Right-to-Left) Support
+Configure whether the language supports RTL layouts.
+Translation Files
+
+Admins can upload:
+
+Admin Panel Translation File
+App Translation File
+
+This allows separate localization for:
+
+Admin Dashboard
+User App Interface
+
+A “Save” button is provided to add and activate the language.
+
+Right Panel – Language Management Table
+
+The right section displays a list of supported languages already configured on the platform.
+
+Each row contains:
+
+Language ID
+Language Name
+Language Code
+RTL Support Status
+Country Flag/Icon
+Action Controls
+Example Languages Shown
+
+The platform currently supports languages such as:
+
+Russian (RU)
+Chinese (CH)
+Korean (KR)
+Indonesian (ID)
+Portuguese (PT)
+Tamil (TML)
+Arabic (AR) (RTL enabled)
+German (GR)
+
+This demonstrates multi-region language support.
+
+Language Management Actions
+
+Admins can:
+
+Edit language settings
+Delete languages
+Enable localization support
+Manage translation resources
+Additional Features
+Search bar for quickly finding languages.
+Pagination controls for large language lists.
+
+
+-------------
+Push Notification System” feature:
+enabling administrators to send real-time push notifications to users using an FCM (Firebase Cloud Messaging)-based system.
+
+Screen Purpose
+
+The push notification module helps admins communicate instantly with users, sending updates, offers, announcements, and alerts directly to their devices.
+
+Header Section
+Title: “Push Notification System”
+Description:
+“Utilize FCM-based push notification system for real-time communication with users.”
+
+This highlights the platform’s focus on real-time engagement and communication.
+
+Top Section – Send Notification Form
+
+The upper-left panel contains a notification creation form, allowing admins to compose and send notifications.
+
+Notification Configuration Fields
+
+Admins can define:
+
+Select User
+Choose a specific user or target audience.
+Title
+Add the notification headline.
+Message
+Write the notification content/message.
+Include Image Option
+Attach promotional or informative images.
+Item Selection
+Link a product, listing, or content item to the notification.
+Submit Button
+Send the notification instantly.
+
+This allows admins to create personalized and targeted notifications.
+
+Upper-Right Section – User Selection Table
+
+The right panel displays a list of users, helping admins select recipients.
+
+Each row includes:
+
+User ID
+User Name
+Phone Number
+
+Admins can:
+
+Search users quickly
+Select recipients for targeted messaging
+Bottom Section – Notification History
+
+The lower section displays a table of previously sent notifications.
+
+Each notification entry includes:
+
+Notification ID
+Title
+Message Content
+Image Status
+Recipient Information (Send To)
+Action Controls
+Example Notification Types
+
+Examples shown include:
+
+Exclusive Discounts
+Hot Deals Alerts
+Product Discovery Updates
+Marketplace Announcements
+Special Promotions
+
+This helps admins manage marketing campaigns and engagement alerts.
+
+Notification Management Actions
+
+Admins can:
+
+View sent notifications
+Delete notifications
+Track communication history
+Send notifications to all users or selected users
+
+
+-------------------
+Featured Section Management” feature
+allowing administrators to create, customize, and manage featured content sections displayed on the platform to improve user engagement and content discovery.
+
+
+Screen Purpose
+
+The featured section management module helps admins highlight specific products, categories, or curated content on the homepage or app interface, making important listings more visible to users.
+
+Header Section
+Title: “Featured Section Management”
+Description:
+“Customize and manage featured sections with various options for enhanced user engagement.”
+
+This emphasizes content personalization and improved marketplace engagement.
+
+Top Section – Create Featured Section
+
+The upper section contains a feature section creation form, allowing administrators to configure new homepage sections.
+
+Configuration Fields
+
+Admins can set:
+
+Title
+Add a custom name for the featured section.
+Filters
+Select how items are displayed or curated.
+
+Example filter options:
+
+Most Liked
+Most Viewed
+Category Criteria
+
+This enables dynamic content selection.
+
+Style Selection for App Section
+
+Admins can choose from multiple visual layout styles for how featured content appears in the app.
+
+Examples include:
+
+Card-based product layout
+Horizontal listing styles
+Visual content showcase formats
+
+This provides flexibility in presentation and user experience.
+
+A “Submit” button is available to save and publish the featured section.
+
+Bottom Section – Featured Section Listing Table
+
+The lower panel displays a list of existing featured sections configured on the platform.
+
+Each row includes:
+
+Section ID
+Visual Style Preview
+Section Title
+Applied Filters
+Sequence/Order
+Action Controls
+Example Featured Sections Shown
+
+Examples visible include:
+
+Popular Item → Filtered by Most Viewed
+Popular in Computers & Networking → Filtered by Category Criteria
+
+This demonstrates targeted content organization.
+
+Management Actions
+
+Admins can:
+
+Edit featured sections
+Delete sections
+Change display order/sequence
+Search sections quickly
+
+A note indicates admins can reorder sections by adjusting the Title column using Up & Down controls, helping customize homepage content priority.
+
+
+--------------
+
+All in One Settings” feature:
+allowing administrators to manage all essential platform configurations from a single centralized dashboard.
+
+Screen Purpose
+
+The settings module acts as a central configuration hub, enabling admins to manage website preferences, notifications, payment gateways, privacy settings, languages, Firebase integration, and legal content from one place.
+
+Header Section
+Title: “All in One Settings”
+Description:
+“Easily handle About Us, privacy, language options, Firebase, payment gateways, and T&C all in one spot for seamless control.”
+
+This highlights the platform’s focus on centralized administration and simplified system management.
+
+Main Settings Dashboard
+
+The center area displays a card-based settings layout, where each card represents a specific configuration module.
+
+Available Settings Modules
+General Settings
+Settings
+Manage overall platform configurations and preferences.
+Web Settings
+Configure website branding, UI behavior, and general web platform settings.
+Communication & Security
+Notification Settings
+Configure push notifications, alerts, and communication preferences.
+OTP Provider Settings
+Manage SMS/OTP authentication providers for secure login and verification.
+Monetization & Advertising
+AdMob
+Configure mobile advertising and monetization settings.
+Payment Gateways
+Set up and manage payment providers for subscriptions and transactions.
+Informational & Legal Pages
+About Us
+Update company information and platform introduction.
+Terms & Conditions
+Manage legal policies and platform usage rules.
+Privacy Policy
+Configure privacy-related information and compliance content.
+Contact Us
+Manage contact information and support details.
+Localization & Language
+Languages
+Configure multilingual support and language options for users.
+Technical & System Controls
+System Status
+Monitor platform health and operational status.
+Firebase Settings (mentioned in description)
+Configure backend services such as authentication, push notifications, and real-time database connectivity.

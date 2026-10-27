@@ -1,0 +1,18 @@
+import { chromium } from "playwright-core";
+const b = await chromium.launch({ channel: "chrome" });
+const errs = [];
+const p = await b.newPage({ viewport: { width: 1366, height: 900 } });
+p.on("pageerror", (e) => errs.push(e.message));
+await p.goto("https://classiadshub.web.app/ad/5", { waitUntil: "networkidle" });
+console.log("web ad/5:", await p.locator("h1").first().textContent().catch(() => "no h1"));
+await p.goto("https://classiadshub.web.app/page/privacy", { waitUntil: "networkidle" });
+console.log("privacy:", (await p.locator("main").innerText()).slice(0, 80).replace(/\n/g, " "));
+await p.goto("https://classiadshub-admin.web.app/login", { waitUntil: "networkidle" });
+await p.fill('input[autocomplete="username"]', "admin@classiads.test");
+await p.fill("input[type=password]", process.env.ADMIN_PW);
+await p.click("button[type=submit]");
+await p.waitForURL((u) => !u.pathname.startsWith("/login"), { timeout: 20000 });
+await p.waitForTimeout(3000);
+console.log("admin after login:", p.url(), "|", (await p.locator("main").innerText()).slice(0, 120).replace(/\n/g, " "));
+console.log("page errors:", errs.length ? errs : "none");
+await b.close();

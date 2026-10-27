@@ -1,0 +1,36 @@
+{
+ "results": [
+  {
+   "name": "Customers: suspend/activate (Auth disabled), auto-approve, assign + remove package",
+   "ok": false,
+   "ms": 35891,
+   "detail": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div.fixed.right-4.top-4 > div').filter({ hasText: /need approval/ }).first() to be visible\u001b[22m\n"
+  },
+  {
+   "name": "Roles + Staff: create role (content) → staff → fresh login: sidebar + API scoping → widen role → suspend → remove",
+   "ok": false,
+   "ms": 21652,
+   "detail": "sidebar shows Customers & Roles"
+  }
+ ],
+ "created": [
+  {
+   "module": "users",
+   "what": "QA user qa-admin-cust-dph0h@classiadshub-qa.dev",
+   "id": 19,
+   "cleaned": false
+  },
+  {
+   "module": "roles",
+   "what": "role qa-admin-content-dph0h",
+   "id": 9,
+   "cleaned": false
+  },
+  {
+   "module": "staff",
+   "what": "staff qa-admin-staff-dph0h@classiadshub-qa.dev",
+   "id": 20,
+   "cleaned": false
+  }
+ ]
+}

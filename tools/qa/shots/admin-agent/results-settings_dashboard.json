@@ -1,0 +1,29 @@
+{
+ "results": [
+  {
+   "name": "Settings → Languages: translations editor add key + save → restore",
+   "ok": true,
+   "ms": 9965,
+   "detail": "ar: 9 strings"
+  },
+  {
+   "name": "Settings → File manager browse (public + private folders)",
+   "ok": true,
+   "ms": 8347,
+   "detail": "brand/: 0 images; receipts folder urls hidden"
+  },
+  {
+   "name": "Dashboard KPIs match Firestore",
+   "ok": true,
+   "ms": 7658,
+   "detail": "total_ads=8 pending_ads=0 sold_ads=0 featured_ads=2 active_ads=8 total_users=12 total_categories=30 subscriptions=29 total_revenue=13485"
+  },
+  {
+   "name": "User queries page (read-only)",
+   "ok": true,
+   "ms": 3133,
+   "detail": "10 rows"
+  }
+ ],
+ "created": []
+}

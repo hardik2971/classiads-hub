@@ -1,0 +1,30 @@
+{
+ "results": [
+  {
+   "name": "Push notification: selected user (with image + ad link) and all users → history → delete",
+   "ok": true,
+   "ms": 42314,
+   "detail": "Sent to 5 recipient(s).; 0 inbox rows cleaned"
+  }
+ ],
+ "created": [
+  {
+   "module": "users",
+   "what": "QA user qa-admin-push-fixok@classiadshub-qa.dev",
+   "id": 31,
+   "cleaned": false
+  },
+  {
+   "module": "push",
+   "what": "push \"QA-ADMIN push selected fixok\"",
+   "id": 11,
+   "cleaned": true
+  },
+  {
+   "module": "push",
+   "what": "push \"QA-ADMIN push all fixok\"",
+   "id": 12,
+   "cleaned": true
+  }
+ ]
+}

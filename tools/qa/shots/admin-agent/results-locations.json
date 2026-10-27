@@ -1,0 +1,42 @@
+{
+ "results": [
+  {
+   "name": "Countries: create → states → cities (map) → areas → public cascade → delete chain",
+   "ok": true,
+   "ms": 61416,
+   "detail": "country #11 → state #14 → city #18 → area #7"
+  },
+  {
+   "name": "Countries: import from restcountries",
+   "ok": false,
+   "ms": 23360,
+   "detail": "locator.check: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div.fixed.inset-0.z-50 > div').last().locator('label').filter({ hasText: 'Tuvalu' }).locator('input')\u001b[22m\n"
+  }
+ ],
+ "created": [
+  {
+   "module": "locations",
+   "what": "country \"QA-ADMIN land dmhtz\"",
+   "id": 11,
+   "cleaned": true
+  },
+  {
+   "module": "locations",
+   "what": "state \"QA-ADMIN state dmhtz\"",
+   "id": 14,
+   "cleaned": true
+  },
+  {
+   "module": "locations",
+   "what": "city \"QA-ADMIN city dmhtz\"",
+   "id": 18,
+   "cleaned": true
+  },
+  {
+   "module": "locations",
+   "what": "area \"QA-ADMIN area dmhtz\"",
+   "id": 7,
+   "cleaned": true
+  }
+ ]
+}

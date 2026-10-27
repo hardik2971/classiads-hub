@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 56" role="img" aria-label="ClassiAds_Hub">
+  <title>ClassiAds_Hub</title>
+  <!-- Mark: rounded square in Primary with an amber 'C' -->
+  <rect x="4" y="4" width="48" height="48" rx="12" fill="#272757"/>
+  <path d="M40 19 a13 13 0 1 0 0 18" stroke="#FFBF00" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="40" cy="37" r="2.2" fill="#FFBF00"/>
+  <!-- Wordmark in Primary for accessible contrast on light backgrounds -->
+  <text x="62" y="37"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="22" font-weight="800" fill="#272757" letter-spacing="-0.4">ClassiAds_Hub</text>
+</svg>

@@ -1,0 +1,68 @@
+PASS seller login + post ad with images/custom fields ad #15 approved
+PASS featured-ad checkout (Boost → sandbox) featured; txn #28 USD 4.99
+PASS seller transactions page lists featured txn listed
+PASS buyer login ok
+PASS favorite / unfavorite persisted fav → unfav ok (and persisted across reload)
+PASS start chat from ad + send message conversation #10
+PASS make an offer offer #24 pending
+PASS report ad report #8
+PASS follow seller (seller page) persisted false → true
+PASS leave seller review review #12
+PASS subscription checkout (sandbox) Monthly Pack active
+PASS transactions + invoices 2 txns, 2 invoices; latest INV-20261026-000029
+PASS seller: notifications page + mark all read all read
+PASS seller: sees buyer message in chat reply sent
+PASS responsive 390px: home / ad / dashboard /=390 /ad/qa-web-seller-car-mvpd5j2b-v6k1lz=390 /dashboard=390 /dashboard/ads=390 /search=390 /post-ad=390
+
+==== RESULTS ====
+PASS  seller login + post ad with images/custom fields — ad #15 approved
+PASS  featured-ad checkout (Boost → sandbox) — featured; txn #28 USD 4.99
+PASS  seller transactions page lists featured txn — listed
+PASS  buyer login — ok
+PASS  favorite / unfavorite persisted — fav → unfav ok (and persisted across reload)
+PASS  start chat from ad + send message — conversation #10
+PASS  make an offer — offer #24 pending
+PASS  report ad — report #8
+PASS  follow seller (seller page) persisted — false → true
+PASS  leave seller review — review #12
+PASS  subscription checkout (sandbox) — Monthly Pack active
+PASS  transactions + invoices — 2 txns, 2 invoices; latest INV-20261026-000029
+PASS  seller: notifications page + mark all read — all read
+PASS  seller: sees buyer message in chat — reply sent
+PASS  responsive 390px: home / ad / dashboard — /=390 /ad/qa-web-seller-car-mvpd5j2b-v6k1lz=390 /dashboard=390 /dashboard/ads=390 /search=390 /post-ad=390
+
+15/15 passed
+
+Created:
+  ad #15 "QA-WEB seller car mvpd5j2b" (seller)
+  featured txn #28 (seller)
+  conversation #10 + message (customer↔seller)
+  offer #24 8500 (customer → seller ad)
+  report #8
+  review #12 (customer → seller)
+  subscription #21 (Monthly Pack) for customer
+
+Cleanup:
+  DELETE ad #15: 200
+  dismiss report #8: 200
+  admin DELETE review #12: 200
+  restore follow: 200
+
+0 problem(s)
+
+segment-prefetch .txt 404s (26):
+  /page/terms/__next._tree.txt
+  /page/privacy/__next._tree.txt
+  /page/faq/__next._tree.txt
+  /page/about/__next._tree.txt
+  /category/clothing-accessories/__next._tree.txt
+  /category/furniture-home-garden/__next._tree.txt
+  /category/home-appliances/__next._tree.txt
+  /category/electronics/__next._tree.txt
+  /category/mobile-phones-tablets/__next._tree.txt
+  /category/cars-vehicles/__next._tree.txt
+  /category/real-estate/__next._tree.txt
+  /page/contact/__next._tree.txt
+  /dashboard/ads/1/edit/__next._tree.txt
+  /ad/toyota-corolla-2019-7qj1ns/__next._tree.txt
+  /ad/ford-mustang-ecoboost-fastback-3snvje/__next._tree.txt

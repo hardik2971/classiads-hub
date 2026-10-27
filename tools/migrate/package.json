@@ -1,0 +1,7 @@
+{
+  "name": "classiads-migrate",
+  "private": true,
+  "description": "One-off MySQL → Firestore/Auth migration for the Laravel → Firebase move.",
+  "scripts": { "migrate": "node migrate.js" },
+  "dependencies": { "firebase-admin": "^13.4.0", "mysql2": "^3.11.5" }
+}

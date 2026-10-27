@@ -1,0 +1,138 @@
+{
+  "results": [
+    {
+      "ok": true,
+      "name": "seller login + post ad with images/custom fields",
+      "detail": "ad #15 approved",
+      "ms": 25500
+    },
+    {
+      "ok": true,
+      "name": "featured-ad checkout (Boost → sandbox)",
+      "detail": "featured; txn #28 USD 4.99",
+      "ms": 20218
+    },
+    {
+      "ok": true,
+      "name": "seller transactions page lists featured txn",
+      "detail": "listed",
+      "ms": 4507
+    },
+    {
+      "ok": true,
+      "name": "buyer login",
+      "detail": "ok",
+      "ms": 4519
+    },
+    {
+      "ok": true,
+      "name": "favorite / unfavorite persisted",
+      "detail": "fav → unfav ok (and persisted across reload)",
+      "ms": 24941
+    },
+    {
+      "ok": true,
+      "name": "start chat from ad + send message",
+      "detail": "conversation #10",
+      "ms": 16922
+    },
+    {
+      "ok": true,
+      "name": "make an offer",
+      "detail": "offer #24 pending",
+      "ms": 11463
+    },
+    {
+      "ok": true,
+      "name": "report ad",
+      "detail": "report #8",
+      "ms": 3844
+    },
+    {
+      "ok": true,
+      "name": "follow seller (seller page) persisted",
+      "detail": "false → true",
+      "ms": 11447
+    },
+    {
+      "ok": true,
+      "name": "leave seller review",
+      "detail": "review #12",
+      "ms": 7008
+    },
+    {
+      "ok": true,
+      "name": "subscription checkout (sandbox)",
+      "detail": "Monthly Pack active",
+      "ms": 18488
+    },
+    {
+      "ok": true,
+      "name": "transactions + invoices",
+      "detail": "2 txns, 2 invoices; latest INV-20261026-000029",
+      "ms": 5880
+    },
+    {
+      "ok": true,
+      "name": "seller: notifications page + mark all read",
+      "detail": "all read",
+      "ms": 6600
+    },
+    {
+      "ok": true,
+      "name": "seller: sees buyer message in chat",
+      "detail": "reply sent",
+      "ms": 8480
+    },
+    {
+      "ok": true,
+      "name": "responsive 390px: home / ad / dashboard",
+      "detail": "/=390 /ad/qa-web-seller-car-mvpd5j2b-v6k1lz=390 /dashboard=390 /dashboard/ads=390 /search=390 /post-ad=390",
+      "ms": 26791
+    }
+  ],
+  "problems": [],
+  "created": [
+    "ad #15 \"QA-WEB seller car mvpd5j2b\" (seller)",
+    "featured txn #28 (seller)",
+    "conversation #10 + message (customer↔seller)",
+    "offer #24 8500 (customer → seller ad)",
+    "report #8",
+    "review #12 (customer → seller)",
+    "subscription #21 (Monthly Pack) for customer"
+  ],
+  "cleanup": [
+    "DELETE ad #15: 200",
+    "dismiss report #8: 200",
+    "admin DELETE review #12: 200",
+    "restore follow: 200"
+  ],
+  "txt404": [
+    "/page/terms/__next._tree.txt",
+    "/page/privacy/__next._tree.txt",
+    "/page/faq/__next._tree.txt",
+    "/page/about/__next._tree.txt",
+    "/category/clothing-accessories/__next._tree.txt",
+    "/category/furniture-home-garden/__next._tree.txt",
+    "/category/home-appliances/__next._tree.txt",
+    "/category/electronics/__next._tree.txt",
+    "/category/mobile-phones-tablets/__next._tree.txt",
+    "/category/cars-vehicles/__next._tree.txt",
+    "/category/real-estate/__next._tree.txt",
+    "/page/contact/__next._tree.txt",
+    "/dashboard/ads/1/edit/__next._tree.txt",
+    "/ad/toyota-corolla-2019-7qj1ns/__next._tree.txt",
+    "/ad/ford-mustang-ecoboost-fastback-3snvje/__next._tree.txt",
+    "/dashboard/ads/6/edit/__next._tree.txt",
+    "/ad/2bhk-house-for-sale-ypkyza/__next._tree.txt",
+    "/dashboard/ads/5/edit/__next._tree.txt",
+    "/ad/dream-villa-4bhk-89gdpn/__next._tree.txt",
+    "/ad/samsung-galaxy-s24-ultra-ie3yuc/__next._tree.txt",
+    "/dashboard/ads/3/edit/__next._tree.txt",
+    "/ad/apple-iphone-15-pro-max-256gb-k9gzxh/__next._tree.txt",
+    "/dashboard/ads/15/edit/__next._tree.txt",
+    "/ad/qa-web-seller-car-mvpd5j2b-v6k1lz/__next._tree.txt",
+    "/dashboard/ads/4/edit/__next._tree.txt",
+    "/seller/2/__next._tree.txt"
+  ]
+}

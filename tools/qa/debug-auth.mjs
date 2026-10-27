@@ -1,0 +1,17 @@
+import { chromium } from "playwright-core";
+const b = await chromium.launch({ channel: "chrome" });
+const p = await (await b.newContext()).newPage();
+p.on("response", (r) => /v1\/(auth|login)/.test(r.url()) && console.log("RESP", r.status(), r.url().replace(/^.*v1/, "")));
+p.on("response", (r) => r.status() === 404 && console.log("404", r.url()));
+await p.goto("http://localhost:4200/login");
+await p.waitForLoadState("networkidle");
+await p.locator("main form input").first().fill("seller@classiads.test");
+await p.locator('main form input[type="password"]').fill("password");
+await p.locator('main form button[type="submit"]').click();
+await p.waitForTimeout(6000);
+console.log("URL after login", p.url());
+console.log("LS keys", await p.evaluate(() => Object.keys(localStorage)));
+await p.goto("http://localhost:4200/dashboard");
+await p.waitForTimeout(6000);
+console.log("URL after reload", p.url());
+await b.close();

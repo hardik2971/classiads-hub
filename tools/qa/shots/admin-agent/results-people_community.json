@@ -1,0 +1,84 @@
+{
+ "results": [
+  {
+   "name": "Customers: suspend/activate (Auth disabled), auto-approve, assign + remove package",
+   "ok": true,
+   "ms": 32640,
+   "detail": "user #32, pkg #1"
+  },
+  {
+   "name": "Roles + Staff: create role (content) → staff → fresh login: sidebar + API scoping → widen role → suspend → remove",
+   "ok": true,
+   "ms": 77009,
+   "detail": "role #13, staff #33"
+  },
+  {
+   "name": "Setup: QA seller ad + QA buyer chat/review/report (API)",
+   "ok": true,
+   "ms": 32867,
+   "detail": "ad #18, conv, review #16, report #11"
+  },
+  {
+   "name": "Chat: products → conversation → messages",
+   "ok": true,
+   "ms": 9664,
+   "detail": "messages visible"
+  },
+  {
+   "name": "Seller reviews: list + hide/approve",
+   "ok": true,
+   "ms": 12501,
+   "detail": "toggle ok"
+  },
+  {
+   "name": "Review report: reject with reason, then approve (review hidden, rating recomputed)",
+   "ok": true,
+   "ms": 15184,
+   "detail": "rejected then approved"
+  },
+  {
+   "name": "User reports: deactivate reported ad + resolve",
+   "ok": true,
+   "ms": 15622,
+   "detail": "report #11 resolved"
+  },
+  {
+   "name": "Seller verification: approve one, reject one (with reason) + KYC files private",
+   "ok": true,
+   "ms": 14588,
+   "detail": "#11 approved, #12 rejected"
+  }
+ ],
+ "created": [
+  {
+   "module": "users",
+   "what": "QA user qa-admin-cust-fkjox@classiadshub-qa.dev",
+   "id": 32,
+   "cleaned": false
+  },
+  {
+   "module": "roles",
+   "what": "role qa-admin-content-fkjox",
+   "id": 13,
+   "cleaned": true
+  },
+  {
+   "module": "staff",
+   "what": "staff qa-admin-staff-fkjox@classiadshub-qa.dev",
+   "id": 33,
+   "cleaned": true
+  },
+  {
+   "module": "users",
+   "what": "QA user qa-admin-seller-fkjox@classiadshub-qa.dev",
+   "id": 34,
+   "cleaned": false
+  },
+  {
+   "module": "users",
+   "what": "QA user qa-admin-buyer2-fkjox@classiadshub-qa.dev",
+   "id": 35,
+   "cleaned": false
+  }
+ ]
+}

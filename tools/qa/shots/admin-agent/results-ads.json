@@ -1,0 +1,24 @@
+{
+ "results": [
+  {
+   "name": "Ad create wizard (5 steps: category → details+custom fields → images → map → SEO) → view → approved",
+   "ok": true,
+   "ms": 25953,
+   "detail": "ad #22 (Cars & Vehicles › Cars), 5 custom fields"
+  },
+  {
+   "name": "Ad moderation: reject with reason → approve → feature → list filters → bulk status → delete",
+   "ok": true,
+   "ms": 48810,
+   "detail": "#22 reject/approve/feature/bulk/edit/delete"
+  }
+ ],
+ "created": [
+  {
+   "module": "ads",
+   "what": "ad \"QA-ADMIN wizard ad kh3hp\"",
+   "id": 22,
+   "cleaned": true
+  }
+ ]
+}

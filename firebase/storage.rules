@@ -1,0 +1,13 @@
+rules_version = '2';
+
+// Uploads go through the `api` Cloud Function. Public media is world-readable;
+// KYC documents, payment receipts and résumés are only reachable via the
+// tokenised URLs the API hands to their owner and to admins.
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{folder}/{allPaths=**} {
+      allow read: if folder in ['ads', 'sliders', 'categories', 'custom-fields', 'avatars', 'blog', 'banners', 'packages', 'brand'];
+      allow write: if false;
+    }
+  }
+}

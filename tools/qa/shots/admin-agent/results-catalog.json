@@ -1,0 +1,84 @@
+{
+ "results": [
+  {
+   "name": "Categories: create with icon (form) → list/API/Firestore/public",
+   "ok": true,
+   "ms": 25581,
+   "detail": "#50 icon public"
+  },
+  {
+   "name": "Categories: subcategory + parent picker excludes self + edit",
+   "ok": true,
+   "ms": 17683,
+   "detail": "sub #51"
+  },
+  {
+   "name": "Categories: deactivate hides from public /categories, reactivate",
+   "ok": true,
+   "ms": 8100,
+   "detail": "hidden while inactive"
+  },
+  {
+   "name": "Categories: order page drag + save",
+   "ok": true,
+   "ms": 40355,
+   "detail": "sub + main reorder persisted (restored)"
+  },
+  {
+   "name": "Categories: bulk CSV upload",
+   "ok": true,
+   "ms": 12058,
+   "detail": "2 imported (parent + inactive honoured)"
+  },
+  {
+   "name": "Custom fields: create dropdown w/ icon + category scope, edit, clear scope, bulk delete",
+   "ok": true,
+   "ms": 30591,
+   "detail": "create/edit/clear-scope/bulk-delete"
+  },
+  {
+   "name": "Categories: delete guarded (has subcategories) then delete all",
+   "ok": true,
+   "ms": 33654,
+   "detail": "guard: \"\"QA-ADMIN cat edited egoyv\": delete or move the subcategories first.\""
+  }
+ ],
+ "created": [
+  {
+   "module": "categories",
+   "what": "category \"QA-ADMIN cat egoyv\"",
+   "id": 50,
+   "cleaned": true
+  },
+  {
+   "module": "categories",
+   "what": "subcategory \"QA-ADMIN subcat egoyv\"",
+   "id": 51,
+   "cleaned": true
+  },
+  {
+   "module": "categories",
+   "what": "csv category \"QA-ADMIN csv1 egoyv\"",
+   "id": 52,
+   "cleaned": true
+  },
+  {
+   "module": "categories",
+   "what": "csv category \"QA-ADMIN csv2 egoyv\"",
+   "id": 53,
+   "cleaned": true
+  },
+  {
+   "module": "custom_fields",
+   "what": "custom field \"QA-ADMIN cf egoyv\"",
+   "id": 20,
+   "cleaned": true
+  },
+  {
+   "module": "custom_fields",
+   "what": "custom field \"QA-ADMIN cf2 egoyv\"",
+   "id": 21,
+   "cleaned": true
+  }
+ ]
+}

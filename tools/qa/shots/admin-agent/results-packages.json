@@ -1,0 +1,18 @@
+{
+ "results": [
+  {
+   "name": "Packages: create (icon, discount, key points, category scope) → edit → clear scope → delete",
+   "ok": true,
+   "ms": 27954,
+   "detail": "#10"
+  }
+ ],
+ "created": [
+  {
+   "module": "packages",
+   "what": "package \"QA-ADMIN pkg dj3h2\"",
+   "id": 10,
+   "cleaned": true
+  }
+ ]
+}

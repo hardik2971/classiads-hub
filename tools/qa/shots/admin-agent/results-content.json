@@ -1,0 +1,48 @@
+{
+ "results": [
+  {
+   "name": "Sliders: create with image + category link → public /home → toggle → reorder → delete",
+   "ok": true,
+   "ms": 23793,
+   "detail": "#9 home/toggle/reorder/delete"
+  },
+  {
+   "name": "Feature sections: create (category filter, style) → /home → edit → toggle → delete",
+   "ok": true,
+   "ms": 22880,
+   "detail": "#11"
+  },
+  {
+   "name": "Home screen: popular category add/remove + section visibility → /home",
+   "ok": true,
+   "ms": 27475,
+   "detail": "cat #15"
+  },
+  {
+   "name": "Banner ads: 4-step wizard (dual, 2 images, external link) → list → public → edit → delete",
+   "ok": false,
+   "ms": 40423,
+   "detail": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('img[src=\"https://firebasestorage.googleapis.com/v0/b/classiadshub.firebasestorage.app/o/banners%2Fa97ccb74-e4fe-4a98-9d6e-761d0765aa2f.png?alt=media\"]').first() to be visible\u001b[22m\n"
+  }
+ ],
+ "created": [
+  {
+   "module": "sliders",
+   "what": "slider \"QA-ADMIN slider df9uq\"",
+   "id": 9,
+   "cleaned": true
+  },
+  {
+   "module": "featured_sections",
+   "what": "section \"QA-ADMIN section df9uq\"",
+   "id": 11,
+   "cleaned": true
+  },
+  {
+   "module": "banner_ads",
+   "what": "banner (placement qa-admin-df9uq)",
+   "id": 8,
+   "cleaned": false
+  }
+ ]
+}

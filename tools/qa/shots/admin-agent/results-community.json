@@ -1,0 +1,54 @@
+{
+ "results": [
+  {
+   "name": "Setup: QA seller ad + QA buyer chat/review/report (API)",
+   "ok": true,
+   "ms": 28941,
+   "detail": "ad #16, conv, review #13, report #9"
+  },
+  {
+   "name": "Chat: products → conversation → messages",
+   "ok": true,
+   "ms": 9389,
+   "detail": "messages visible"
+  },
+  {
+   "name": "Seller reviews: list + hide/approve",
+   "ok": false,
+   "ms": 7377,
+   "detail": "re-approve not persisted"
+  },
+  {
+   "name": "Review report: reject with reason, then approve (review hidden, rating recomputed)",
+   "ok": false,
+   "ms": 6808,
+   "detail": "reject {\"created_at\":{\"_seconds\":1793026917,\"_nanoseconds\":754000000},\"key\":\"24_23_16\",\"reviewer_id\":24,\"reviewee_id\":23,\"ad_id\":16,\"rating\":2,\"comment\":\"QA-ADMIN review dwv9p\",\"type\":\"seller_review\",\"id\":13,\"report_reason\":\"QA-ADMIN abusive dwv9p\",\"reported_at\":{\"_seconds\":1793026920,\"_nanoseconds\":403000000},\"is_approved\":false,\"report_rejection_reason\":\"QA-ADMIN review is fair\",\"updated_at\":{\"_seconds\":1793026945,\"_nanoseconds\":67000000},\"report_status\":\"rejected\"}"
+  },
+  {
+   "name": "User reports: deactivate reported ad + resolve",
+   "ok": false,
+   "ms": 27472,
+   "detail": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div.fixed.right-4.top-4 > div').filter({ hasText: 'Ad re-activated.' }).first() to be visible\u001b[22m\n"
+  },
+  {
+   "name": "Seller verification: approve one, reject one (with reason) + KYC files private",
+   "ok": true,
+   "ms": 15069,
+   "detail": "#8 approved, #9 rejected"
+  }
+ ],
+ "created": [
+  {
+   "module": "users",
+   "what": "QA user qa-admin-seller-dwv9p@classiadshub-qa.dev",
+   "id": 23,
+   "cleaned": false
+  },
+  {
+   "module": "users",
+   "what": "QA user qa-admin-buyer2-dwv9p@classiadshub-qa.dev",
+   "id": 24,
+   "cleaned": false
+  }
+ ]
+}
